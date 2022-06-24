@@ -85,8 +85,21 @@ body {
   --van-tab-text-color: #8d9eae;
   --van-tab-active-text-color: #1d252f;
   --van-tabbar-height: 90px !important;
+  /* overflow: auto; */
 }
-
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+#app {
+  height: 100%;
+  overflow: hidden;
+  /* overflow: auto; */
+}
 /* del {
   color: #949497;
 } */
